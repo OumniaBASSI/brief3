@@ -1,0 +1,59 @@
+
+*{margin: 0cm;}
+header{
+    background:rgb(241, 241, 245);
+    background-image:url("https://www.dfs.ny.gov/sites/default/files/styles/wide_lead/public/media/2020/03/istock-1209688759-corona.jpg?h=88ab0a7e&itok=nS0vOPyi");
+    background-size: cover;
+    background-repeat: repeat-x;
+    text-align: end;
+ 
+}
+#logo{
+    float: left;
+    width: 20%;
+    margin-top:-0.5cm;
+    margin-left:-3cm;
+}
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 2cm;
+    margin-left: 4cm;
+    gap: 50px 100px ;
+}
+
+figcaption{
+    color:blue;
+}
+
+nav ul li{
+    list-style-type: none;
+    text-align: center;
+    display:inline-block;
+    padding: 10px
+ }
+ ul li a{
+    color: aliceblue;
+    letter-spacing: 0.1rem;
+ }
+ ul li a:hover{
+    color: blueviolet;
+ }
+
+    hgroup{
+       background-color:rgb(236, 233, 46)
+       
+    
+    }
+    p{
+        color: rgb(35, 35, 240);
+    }
+    
+figcaption{
+
+    color: blue;
+}
+img{
+    width:30%;
+}
+
